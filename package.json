@@ -1,0 +1,34 @@
+{
+  "name": "fhir-dto",
+  "version": "1.0.0",
+  "description": "DTOs for all objects in the fhir standard, with class-validator decorators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mi-kei-la/fhir-dto.git"
+  },
+  "keywords": [
+    "fhir",
+    "dto",
+    "class-validator"
+  ],
+  "author": "mi-kei-la",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mi-kei-la/fhir-dto/issues"
+  },
+  "homepage": "https://github.com/mi-kei-la/fhir-dto#readme",
+  "dependencies": {
+    "@types/fhir": "^0.0.41",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "fhir": "^4.12.0",
+    "ts-morph": "^25.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4"
+  }
+}
